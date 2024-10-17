@@ -83,7 +83,7 @@ function App() {
       )}
       {submitted && questionVisible && !answer && (
         <div className="question">
-          <p>Hey, {name}! Are you fool!?🤭</p>
+          <p>Hey, {name}! Do you LOVE me!?🤭</p>
           <div className="answer-buttons">
             <button onClick={() => handleAnswer('yes')}>YES</button>
             <button 
