@@ -1,13 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './App.css';
 
-function App() {
-  const [name, setName] = useState('');
-  const [submitted, setSubmitted] = useState(false);
-  const [questionVisible, setQuestionVisible] = useState(false);
-  const [answer, setAnswer] = useState('');
-  const inputRef = useRef(null);
-  const noButtonRef = useRef(null);
 
   const handleNameChange = (e) => {
     setName(e.target.value);
